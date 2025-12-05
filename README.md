@@ -1,5 +1,8 @@
 # SQL
 
+## Update
+  - UPDATE Salary SET sex = CASE WHEN sex = 'm' THEN 'f' ELSE 'm' END
+    
 ## Data Type
   - CAST(COLUMN_NAME AS Dat-type)
   - Data-type: UNSIGNED, SIGNED
